@@ -7,14 +7,14 @@ This project fine-tunes TinyLLaMA-1.1B-Chat on Rick Sanchez dialogues (Rick and 
 - Fine-tuned causal LLM with instruction-following dialogue data  
 - Efficient adaptation with PEFT (LoRA) and quantization  
 - Realistic voice cloning using Tortoise TTS  
-- Integrated text generation and speech synthesis  
-- Interactive chatbot emulating Rick Sanchez’s personality  
 
 ## Usage
 
-1. Open the `rick_sanchez_chatbot.ipynb` notebook in Google Colab or Jupyter.  
-2. Follow the cells to load data, fine-tune the model, train TTS, and run the chatbot.  
-3. Requires Python 3.8+, PyTorch, Transformers, Tortoise TTS, and related dependencies.
+1. Open the `fine_tuning_rick.ipynb` and 'voice_clone_rick' notebook in Google Colab or Jupyter.
+2. Download the dataset for fine tuning.
+3. Collect at leat 5 clips of rick of a duration 10-30 seconds in .wav extension for the voice cloning.  
+4. Follow the cells to load data, fine-tune the model, train TTS.  
+5. Requires Python 3.8+, PyTorch, Transformers, Tortoise TTS, and related dependencies.
 
 ## Requirements
 
@@ -23,8 +23,4 @@ This project fine-tunes TinyLLaMA-1.1B-Chat on Rick Sanchez dialogues (Rick and 
 - Transformers  
 - PEFT (for LoRA)  
 - Tortoise TTS  
-- Jupyter or Google Colab  
-
-## Dataset
-
-The dialogue dataset was curated from Rick and Morty episodes (seasons 1–8) and formatted for instruction-following fine-tuning.
+- Jupyter or Google Colab for GPU usage.
