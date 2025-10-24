@@ -10,8 +10,8 @@ This project fine-tunes TinyLLaMA-1.1B-Chat on Rick Sanchez dialogues (Rick and 
 
 ## Usage
 
-1. Open the `fine_tuning_rick.ipynb` and 'voice_clone_rick.ipynp' notebook in Google Colab or Jupyter.
-2. Download the dataset for fine tuning.
+1. Open the `fine_tuning_rick.ipynb` and 'voice_clone_rick.ipynb' notebook in Google Colab or Jupyter.
+2. Download the dataset named 'rick.json' for fine tuning.
 3. Collect at leat 5 clips of rick of a duration 10-30 seconds in .wav extension for the voice cloning.  
 4. Follow the cells to load data, fine-tune the model, train TTS.  
 5. Requires Python 3.8+, PyTorch, Transformers, Tortoise TTS, and related dependencies.
